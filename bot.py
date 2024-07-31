@@ -67,8 +67,8 @@
 
    def main() -> None:
        """Run the bot."""
-       token = os.getenv("TOKEN")
-       updater = Updater(token)
+       token = os.getenv(6997178327:AAFa2n18AoJGL0IjmULZbfkayRdJV0FW81Y)
+       updater = Updater(6997178327:AAFa2n18AoJGL0IjmULZbfkayRdJV0FW81Y)
        
        updater.dispatcher.add_handler(CommandHandler('start', start))
        updater.dispatcher.add_handler(CallbackQueryHandler(button))
